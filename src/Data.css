@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 0, 140);
+}
+
+.mainapp {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mainapp img {
+    border-radius: 50%;
+    float: left;
+    max-width: 100%; 
+}
+
+.mainapp button {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 370px) {
+    .mainapp {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .mainapp img {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .mainapp button {
+        margin: 10px 0;
+    }
+} 
+
+
